@@ -1,0 +1,121 @@
+:root{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav, .nav a{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color:yellow;
+  padding: 24px;
+  font-size: larger;
+  
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px; /* similar a max-w-7xl */
+  margin: 0 auto;
+  padding: 0 24px; /* similar a px-6 */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px; /* similar a gap-x-8 y gap-y-16 */
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr); /* similar a lg:grid-cols-2 */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* similar a text-3xl */
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* similar a text-4xl */
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray-300 {
+  color: #d1d5db;
+}
+
+.bg-gray-900 {
+  background-color: #1f2937;
+}
+
+.rounded-md {
+  border-radius: 0.375rem; /* similar a rounded-md */
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 16px;
+}
+
+.pokemon-card {
+  background-color: #f3f4f6; /* Color de fondo */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pokemon-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pokemon-card p {
+  margin-top: 8px;
+}
+
+/* index.css */
+.pokemon-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas */
+  gap: 16px;
+  align-items: start;
+}
+
+.pokemon-card {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.pokemon-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pokemon-stats {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+}
+
+.stat {
+  margin-bottom: 8px;
+}
